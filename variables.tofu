@@ -33,3 +33,15 @@ variable "admin_last_name" {
 variable "phone_number" {
     default = "000-000-0000"
 }
+
+variable "base_url" {
+  
+}
+
+variable "ldaps_user" {
+    default = "cn=administrator"
+}
+
+variable "ldaps_password" {
+    default = ""
+}
